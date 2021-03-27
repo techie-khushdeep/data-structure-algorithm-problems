@@ -34,7 +34,7 @@ public class SelectionSort {
         int[] inputArr = new int[N];
 
         for (int i = 0; i < N; i++) {
-            System.out.println("Array["+"] :");
+            System.out.println("Array["+i+"] :");
             inputArr[i] = input.nextInt();
         }
         selectionSort(inputArr,0,N-1);
