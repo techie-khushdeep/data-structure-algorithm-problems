@@ -31,16 +31,18 @@ public class QuickSort {
     }
 
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        System.out.println("Enter element no.");
-        int N = input.nextInt();
+//        Scanner input = new Scanner(System.in);
+//        System.out.println("Enter element no.");
+//        int N = input.nextInt();
+//
+//        int[] inputArr = new int[N];
+//        for (int i = 0; i < N; i++) {
+//            System.out.println("Array["+i+"] :");
+//            inputArr[i] = input.nextInt();
+//        }
 
-        int[] inputArr = new int[N];
-        for (int i = 0; i < N; i++) {
-            System.out.println("Array["+i+"] :");
-            inputArr[i] = input.nextInt();
-        }
-
+        int[] inputArr = {1,5,3,2,8,7,6,4};
+        int N = inputArr.length;
         System.out.println("Output");
         quickSort(inputArr,0,N-1);
         for (int j : inputArr) {
